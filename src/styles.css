@@ -1,0 +1,60 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(215, 223, 252) 0%,
+    rgb(255, 255, 255) 0%,
+    rgb(215, 223, 252) 84%
+  );
+}
+h1 {
+  top: 0;
+  left: 15px;
+  font-size: 50px;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 15px;
+  margin-left: 0px;
+  font-weight: normal;
+}
+
+h3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+}
+
+.todays-date {
+  position: absolute;
+  right: 0;
+  top: 18px;
+}
+
+.todays-time {
+  position: absolute;
+  right: 0;
+  top: 35px;
+}
+
+.sun {
+  display: block;
+  margin-left: 0px;
+}
+
+.todays-weather,
+.todays-temp,
+.todays-precipitation {
+  display: block;
+  position: relative;
+  bottom: 120px;
+  left: 220px;
+}
