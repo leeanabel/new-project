@@ -10,17 +10,20 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/styles.css" />
     <title>Weather App</title>
     <div class="container">
       <h1>Hong Kong</h1>
       <h2>Last updated 20 minutes ago</h2>
-      <h3 id="date"></h3>
+      <h3 id="date">Today</h3>
+      <h4 id="coordinates"></h4>
 
       <form id="search-city">
         <input type="text" id="city-input" placeholder="Enter your city" />
         <button type="submit" class="btn btn-primary">Go</button>
       </form>
+      <button id="current-location">Current Location</button>
       <img class="sun" src="images/Sun.svg" width="200" />
       <span class="todays-weather"> Sunny </span>
       <span class="todays-temp" id="temperature">32</span>
@@ -84,7 +87,7 @@
           July 25, 2021
           <img src="images/Sun.svg" />
           <ul>
-            <li class="wednesday-weather">Rainy</li>
+            <li class="wednesday-weather">Sunny</li>
             <li class="wednesday-temp">27°C</li>
             <li class="wednesday-precipitation">Precipitation: 5%</li>
           </ul>
@@ -92,6 +95,5 @@
       </div>
     </div>
     <script src="src/script.js"></script>
-    <a href="http://repository>/https://frosty-poincare-f04eb8.netlify.app"> Click me </a>
   </body>
 </html>
